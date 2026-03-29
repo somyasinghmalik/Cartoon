@@ -114,7 +114,7 @@ w2.set(5)
 w2.pack()
 
 w3 = Scale(root,label = 'Border Parameter(As per need(higher the better))', length = 400, from_=10, to=100,orient=HORIZONTAL) 
-w3.set(50)
+w3.set(100)
 w3.pack()
 
 root.mainloop()
