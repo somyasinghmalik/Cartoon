@@ -106,12 +106,15 @@ b3 = Button(root,text = 'Quit',command=quit)
 b3.pack()
 
 w1 = Scale(root,label ='Color Quantization Degree(Optimum = 24)',length = 400, from_=10, to=50,orient=HORIZONTAL)
+w1.set(24)
 w1.pack()
 
 w2 = Scale(root,label = 'Staircase Cartoon Feature Number(Optimum = 5)',length = 400, from_=1, to=10,orient=HORIZONTAL)
+w2.set(5)
 w2.pack()
 
 w3 = Scale(root,label = 'Border Parameter(As per need(higher the better))', length = 400, from_=10, to=100,orient=HORIZONTAL) 
+w3.set(50)
 w3.pack()
 
 root.mainloop()
