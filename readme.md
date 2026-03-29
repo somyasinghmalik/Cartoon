@@ -28,6 +28,11 @@ Modern tools for image stylization are either complex or require manual effort. 
 pip install -r requirements.txt
 python main.py
 ```
+## GUI Information
+1. Click on "browse" button to select image 
+3. Adjust sliders according to need
+2. Click on "proceed"
+
 ##  Virtual Environment Setup (Recommended)
 
 It is recommended to run this project inside a virtual environment to avoid dependency conflicts.
